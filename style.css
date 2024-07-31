@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+
+header {
+    background-color: #d9534f;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 1.5rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Form Container */
+.form-container {
+    background-color: #ffffff;
+    padding: 2rem; /* Increased padding for vertical space */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem; /* Added margin-bottom for spacing below the form */
+}
+
+form {
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.75rem; /* Increased margin-bottom for more space between label and input */
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 1rem; /* Increased padding for more space inside inputs */
+    margin-bottom: 1.25rem; /* Increased margin-bottom for more space between inputs */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+input::placeholder {
+    color: #aaa;
+   
+}
+
+button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 1rem; /* Increased padding for better click area */
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    width: 100%; /* Make button full-width on mobile */
+    margin-top: 1rem; /* Added margin-top for spacing above the button */
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+
+#requests-container {
+    margin-top: 2rem;
+}
+
+.request-card {
+    padding: 1rem;
+    margin-bottom: 1.5rem; /* Increased margin-bottom for spacing between request cards */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.request-card h3 {
+    margin: 0;
+    color: #d9534f;
+}
+
+.request-card p {
+    margin: 0.5rem 0;
+}
+
+@media (max-width: 600px) {
+    header {
+        font-size: 1.25rem;
+        padding: 1rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    .form-container {
+        padding: 1.5rem; /* Reduced padding on mobile for better use of space */
+    }
+
+    input, button {
+        font-size: 0.875rem; /* Smaller font size for mobile */
+        padding: 0.75rem; /* Adjusted padding for better fit */
+    }
+
+    button {
+        padding: 1rem; /* Adjusted padding for button */
+    }
+
+    #requests-container {
+        margin-top: 1rem;
+    }
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
